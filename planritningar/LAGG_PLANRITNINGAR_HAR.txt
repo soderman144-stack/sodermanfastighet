@@ -1,0 +1,2 @@
+Exempel: lagenhet2.pdf
+Knappen visas automatiskt endast om PDF-filen finns.

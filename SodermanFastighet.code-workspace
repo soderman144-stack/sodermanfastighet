@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true
+  }
+}

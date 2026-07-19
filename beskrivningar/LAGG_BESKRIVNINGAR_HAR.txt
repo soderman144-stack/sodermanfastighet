@@ -1,0 +1,2 @@
+Exempel: lagenhet2.txt
+Filen kopplas automatiskt till objektet som har "bilder": "lagenhet2".

@@ -1,0 +1,114 @@
+/*
+  Bildformat styrs av objekttyp:
+  - Garage och parkering: liggande ram
+  - Förråd, lokaler och lägenheter: stående ram
+
+  Bilderna roteras inte och beskärs inte.
+*/
+
+/* Gemensamt */
+.startkort-bildram,
+.bildram {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #eef1f4;
+}
+
+.startkort-bild,
+.objektbild,
+.carousel-item img,
+.object-image {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center;
+    background: #eef1f4;
+}
+
+/* STARTSIDAN */
+
+/* Garage och parkering: liggande */
+.startkort-bildram.format-liggande {
+    aspect-ratio: 16 / 9;
+    max-height: 290px;
+}
+
+/* Förråd, lokaler och lägenheter: stående */
+.startkort-bildram.format-staende {
+    aspect-ratio: 3 / 4;
+    max-height: 430px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+/* KATEGORI- OCH OBJEKTSIDOR */
+
+/* Garage och parkering: liggande */
+.bildram.format-liggande,
+.objekt-karusell.format-liggande .carousel-item {
+    aspect-ratio: 16 / 9;
+    max-height: 650px;
+}
+
+/* Förråd, lokaler och lägenheter: stående */
+.bildram.format-staende,
+.objekt-karusell.format-staende .carousel-item {
+    aspect-ratio: 3 / 4;
+    max-height: 780px;
+    max-width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Karusell */
+.objekt-karusell,
+.objekt-karusell .carousel-inner {
+    width: 100%;
+    background: #eef1f4;
+}
+
+.objekt-karusell .carousel-item {
+    background: #eef1f4;
+}
+
+.objekt-karusell .carousel-control-prev-icon,
+.objekt-karusell .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.55);
+    background-size: 55%;
+}
+
+.objekt-karusell .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+    .startkort-bildram.format-liggande {
+        max-height: 230px;
+    }
+
+    .startkort-bildram.format-staende {
+        max-height: 390px;
+        max-width: 300px;
+    }
+
+    .bildram.format-liggande,
+    .objekt-karusell.format-liggande .carousel-item {
+        max-height: 430px;
+    }
+
+    .bildram.format-staende,
+    .objekt-karusell.format-staende .carousel-item {
+        max-height: 680px;
+        max-width: 100%;
+    }
+}
