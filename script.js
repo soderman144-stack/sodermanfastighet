@@ -830,7 +830,7 @@ async function initObjekt() {
 
                 <section class="mt-4 mb-4" aria-labelledby="om-objektet">
                     <h2 id="om-objektet" class="h4">
-                        Om ${escapeHtml(objekt.rubrik)}
+                        Om objektet
                     </h2>
                     <p class="mb-0">${escapeHtml(seoText)}</p>
                 </section>
