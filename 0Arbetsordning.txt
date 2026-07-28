@@ -1,51 +1,44 @@
-SEO-checklista – När ett nytt objekt blir ledigt
+0Arbetsordning – Nytt objekt blir ledigt
 
 Exempel: Förråd 2 blir ledigt
 
-1.  Uppdatera fastighet.json (forrad-2)
+1. Uppdatera fastighet.json (forrad-2)
+- Sätt objektet som ledigt.
+- Kontrollera pris.
+- Kontrollera beskrivning (beskrivningar/forrad2.txt).
+- Kontrollera bilder (bilder/forrad2-1.jpg, forrad2-2.jpg osv).
 
--   Sätt objektet som ledigt.
--   Kontrollera 
-      pris 
-      beskrivning - beskrivningar\forrad2.txt 
-      bilder - bilder\forrad2-1.jpg ,forrad2-2.jpg osv
+2. Testa lokalt
+- Kontrollera att objektet visas under Lediga objekt.
+- Kontrollera att objekt.html?id=forrad-2 fungerar.
+- Kontrollera bilder, pris och text.
 
-2.  Testa lokalt
+3. Uppdatera sitemap.xml
+- Öppna sitemap-mall.txt.
+- Kopiera objektets <url>...</url>-block.
+- Klistra in det i sitemap.xml.
+- Uppdatera lastmod till dagens datum.
 
--   Kontrollera att objektet visas under Lediga objekt.
--   Kontrollera att objekt.html?id=forrad-2 fungerar.
--   Kontrollera bilder, pris och text.
+4. Publicera webbplatsen med GitHub Desktop
+- Commit alla ändrade filer samtidigt.
+- Push till GitHub.
 
-3.  Publicera webbplatsen med Github Desktop
+5. Vänta tills GitHub Pages publicerat webbplatsen.
 
--   Commit
--   Push till GitHub
--   Vänta tills GitHub Pages publicerat sidan.
+6. Google Search Console
+- Öppna Sitemaps.
+- Skicka in sitemap.xml igen.
 
-4.  Uppdatera sitemap.xml
+7. Begär indexering
+- https://sodermanfastighet.se/objekt.html?id=forrad-2
+- Klicka på "Begär indexering".
 
--   Öppna sitemap-mall.txt.
--   Kopiera objektets …-block.
--   Klistra in det i sitemap.xml.
--   Uppdatera lastmod till dagens datum.
+8. Klart
 
-5.  Publicera igen
-
--   Commit
--   Push
-
-6.  Google Search Console
-
--   Öppna Sitemaps.
--   Skicka in sitemap.xml igen.
-
-7.  Begär indexering
-    https://sodermanfastighet.se/objekt.html?id=forrad-2
-
-Klicka på “Begär indexering”.
-
-8.  Klart
-
-När objektet blir uthyrt: - Sätt objektet som ej ledigt i
-fastighet.json. - Commit + Push. - Ta bort objektets block ur
-sitemap.xml. - Commit + Push. - Skicka in sitemap.xml igen.
+När objektet blir uthyrt
+- Sätt objektet som ej ledigt i fastighet.json.
+- Ta bort objektets <url>-block ur sitemap.xml.
+- Uppdatera lastmod.
+- Commit alla ändrade filer.
+- Push.
+- Skicka in sitemap.xml igen i Search Console.
