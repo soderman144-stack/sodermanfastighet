@@ -25,12 +25,12 @@ Exempel: Förråd 2 blir ledigt
 
 5. Vänta tills GitHub Pages publicerat webbplatsen.
 
-6. Google Search Console
-- Öppna Sitemaps.
+6. Google Search Console (search.google.com/search-console?resource_id=sc-domain:sodermanfastighet.se)
+- Klicka Webbplatskartor (Sitemaps).
 - Skicka in sitemap.xml igen.
 
-7. Begär indexering
-- https://sodermanfastighet.se/objekt.html?id=forrad-2
+7. Klicka Granskning av webbadress 
+- sodermanfastighet.se/objekt.html?id=forrad-2
 - Klicka på "Begär indexering".
 
 8. Klart
