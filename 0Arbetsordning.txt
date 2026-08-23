@@ -26,14 +26,19 @@ Exempel: Förråd 2 blir ledigt
 5. Vänta tills GitHub Pages publicerat webbplatsen.
 
 6. Google Search Console (search.google.com/search-console?resource_id=sc-domain:sodermanfastighet.se)
-- Klicka Webbplatskartor (Sitemaps).
-- Skicka in sitemap.xml igen.
+- Klicka på menyn till vänster: Webbplatskartor (Sitemaps).
+- I fältet: Lägg till ny webbplatskarta, skriv: https://sodermanfastighet.se/sitemap.xml
+- Klicka "Skicka"
 
-7. Klicka Granskning av webbadress 
+7. Klicka på menyn till vänster: Granskning av webbadress 
+- sodermanfastighet.se/objekt.html?id=forrad-1
+- Klicka "Testa den aktiva webadressen"
+- Klicka på "Begär indexering".
 - sodermanfastighet.se/objekt.html?id=forrad-2
+- Klicka "Testa den aktiva webadressen"
 - Klicka på "Begär indexering".
 
-8. Klart
+
 
 När objektet blir uthyrt
 - Sätt objektet som ej ledigt i fastighet.json.
