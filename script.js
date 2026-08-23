@@ -122,7 +122,6 @@ async function finnsFil(sokvag) {
     const kontroll = (async () => {
         try {
             const svar = await fetch(sokvag, {
-                method: "HEAD",
                 cache: "no-store"
             });
 
@@ -290,6 +289,12 @@ function bilder(objekt) {
         (Array.isArray(objekt.bilder) ? objekt.bilder : []);
 }
 
+function objektBildStil(objekt) {
+    return objekt.typ === "lagenhet"
+        ? "height:520px;object-fit:cover"
+        : "height:450px;object-fit:contain;background:#fff";
+}
+
 /* =========================================================
    PLANRITNINGAR
    ========================================================= */
@@ -389,6 +394,7 @@ function carousel(objekt) {
         return `
             <img src="${escapeHtml(objektbilder[0])}"
                  class="object-image"
+                 style="${objektBildStil(objekt)}"
                  alt="${escapeHtml(objekt.rubrik)}">
         `;
     }
@@ -405,6 +411,7 @@ function carousel(objekt) {
                     <div class="carousel-item ${index === 0 ? "active" : ""}">
                         <img src="${escapeHtml(bild)}"
                              class="d-block w-100 object-image"
+                             style="${objektBildStil(objekt)}"
                              alt="${escapeHtml(objekt.rubrik)}, bild ${index + 1}">
                     </div>
                 `).join("")}
@@ -414,7 +421,7 @@ function carousel(objekt) {
                     type="button"
                     data-bs-target="#${carouselId}"
                     data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon" style="background-color:rgba(0,0,0,.65);border-radius:50%;padding:22px;background-size:55% 55%"></span>
                 <span class="visually-hidden">Föregående</span>
             </button>
 
@@ -422,7 +429,7 @@ function carousel(objekt) {
                     type="button"
                     data-bs-target="#${carouselId}"
                     data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon" style="background-color:rgba(0,0,0,.65);border-radius:50%;padding:22px;background-size:55% 55%"></span>
                 <span class="visually-hidden">Nästa</span>
             </button>
         </div>

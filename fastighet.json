@@ -12,30 +12,30 @@
     {
       "id": "forrad-1",
       "typ": "forrad",
-      "ledigt": false,
-      "rubrik": "Förråd 1 i Umeå centrum",
+      "ledigt": true,
+      "rubrik": "Förråd uthyres 8 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
         "title": "Förråd 1 i Umeå centrum | Söderman Fastighet",
         "description": "Förråd 1 i Umeå centrum på Pilgatan i Umeå centrum."
       },
-      "storlek": "3 kvm",
-      "hyra": 0,
+      "storlek": "8 kvm",
+      "hyra": 850,
       "adress": "Pilgatan",
       "omrade": "Umeå centrum",
       "bilder": "forrad1",
       "kortText": "",
       "egenskaper": [],
       "ledigFran": "",
-      "prioritet": 11,
+      "prioritet": 64,
       "publicerad": "",
       "senastAndrad": "",
-      "seoText": "Förråd 1 är ett mindre förråd på 3 kvm på Pilgatan i Umeå centrum. Ett praktiskt alternativ för förvaring av kartonger, däck, verktyg eller andra mindre tillhörigheter nära centrala Umeå."
+      "seoText": "Förråd uthyres på Pilgatan 1 i Umeå centrum, nära Konst- och Designhögskolan. Det varma och torra förrådet är 8 kvm och ger gott om plats för exempelvis möbler, flyttkartonger, däck, verktyg eller annan förvaring. Förrådet passar både privatpersoner och företag som behöver extra förvaringsutrymme eller ett mindre lager med centralt läge.\n\nVälkommen att höra av dig!"
     },
     {
       "id": "forrad-2",
       "typ": "forrad",
       "ledigt": true,
-      "rubrik": "Förråd uthyres i Umeå centrum – Pilgatan 1",
+      "rubrik": "Förråd uthyres 5 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
         "title": "Förråd uthyres i Umeå centrum | Söderman Fastighet",
         "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 5 kvm. Hyra 540 kr/mån."
@@ -47,7 +47,7 @@
       "bilder": "forrad2",
       "kortText": "",
       "egenskaper": [],
-      "ledigFran": "2026-07-15 (ledigt nu)",
+      "ledigFran": "Ledig nu",
       "prioritet": 63,
       "publicerad": "",
       "senastAndrad": "",
@@ -415,11 +415,11 @@
         "description": ""
       },
       "storlek": "83 kvm",
-      "hyra": 10800,
+      "hyra": 11500,
       "adress": "Norra Gimonäsvägen",
       "omrade": "Sofiehem",
       "bilder": "lagenhet2",
-      "kortText": "Lägenheten ligger på Sofiehem, en dryg km från universitet/sjukhuset.",
+      "kortText": "Lägenheten ligger på Sofiehem, en dryg km från universitet & sjukhuset.",
       "egenskaper": [],
       "ledigFran": "2026-10-01",
       "prioritet": 61,
