@@ -62,8 +62,15 @@
 
 
   <url>
+    <loc>https://sodermanfastighet.se/objekt.html?id=forrad-1</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://sodermanfastighet.se/objekt.html?id=forrad-2</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
