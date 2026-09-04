@@ -5,7 +5,7 @@
     "stad": "Umeå",
     "adress": "Pilgatan, Umeå centrum samt Norra Gimonäsvägen, Sofiehem",
     "omrade": "Umeå centrum",
-    "telefon": "   ",
+    "telefon": "073-803 24 64",
     "epost": "soderman144@gmail.com"
   },
   "objekt": [
@@ -15,8 +15,8 @@
       "ledigt": true,
       "rubrik": "Förråd uthyres 9 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
-        "title": "Förråd 1 i Umeå centrum | Söderman Fastighet",
-        "description": "Förråd 1 i Umeå centrum på Pilgatan i Umeå centrum."
+        "title": "Förråd uthyres Umeå – 9 kvm, 890 kr/mån | Söderman Fastighet",
+        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 9 kvm för 890 kr/mån."
       },
       "storlek": "9 kvm",
       "hyra": 890,
@@ -37,8 +37,8 @@
       "ledigt": true,
       "rubrik": "Förråd uthyres 5 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
-        "title": "Förråd uthyres i Umeå centrum | Söderman Fastighet",
-        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 5 kvm. Hyra 540 kr/mån."
+        "title": "Förråd uthyres Umeå – 5 kvm, 540 kr/mån | Söderman Fastighet",
+        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 5 kvm för 540 kr/mån. Ledigt nu."
       },
       "storlek": "5 kvm",
       "hyra": 540,

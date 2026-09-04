@@ -797,6 +797,9 @@ async function initObjekt() {
     uppdateraObjektSeo(objekt, seoText, data);
 
     const mailto = skapaIntresseMailto(objekt);
+    const telefonText = data.foretag?.telefon?.trim() ?? "";
+    const telefonHref = telefonText.replace(/[^\d+]/g, "");
+    const visaTelefon = objekt.typ !== "lagenhet" && telefonText;
 
     behallare.innerHTML = `
         <article class="card shadow service-card">
@@ -846,6 +849,12 @@ async function initObjekt() {
                     Anmäl intresse
                 </a>
 
+                ${
+                    visaTelefon
+                        ? `<a class="btn btn-outline-success ms-2" href="tel:${telefonHref}">Ring ${escapeHtml(telefonText)}</a>`
+                        : ""
+                }
+
                 ${planritningsKnapp(objekt)}
             </div>
         </article>
@@ -890,13 +899,10 @@ async function initKontakt() {
     }
 
     if (telefon) {
-        const telefonText = foretag.telefon?.trim() ?? "";
-        telefon.textContent = telefonText;
-
-        if (telefon.tagName === "A" && telefonText) {
-            telefon.href =
-                `tel:${telefonText.replace(/[^\d+]/g, "")}`;
-        }
+        // Telefonnumret visas endast på objektsidor för annat än lägenheter.
+        telefon.textContent = "";
+        telefon.removeAttribute("href");
+        telefon.closest("p")?.classList.add("d-none");
     }
 
     const objektNamn =
