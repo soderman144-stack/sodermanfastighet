@@ -344,13 +344,15 @@ async function hamtaData() {
         foretagsEpost = data.foretag?.epost?.trim() || "";
 
         await Promise.all(
-            (data.objekt ?? []).map(async objekt => {
-                await Promise.all([
-                    lasBeskrivning(objekt),
-                    lasBilder(objekt),
-                    lasPlanritning(objekt)
-                ]);
-            })
+            (data.objekt ?? [])
+                .filter(objekt => objekt.ledigt === true)
+                .map(async objekt => {
+                    await Promise.all([
+                        lasBeskrivning(objekt),
+                        lasBilder(objekt),
+                        lasPlanritning(objekt)
+                    ]);
+                })
         );
 
         return data;
