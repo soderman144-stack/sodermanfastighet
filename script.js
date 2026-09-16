@@ -121,8 +121,11 @@ async function finnsFil(sokvag) {
 
     const kontroll = (async () => {
         try {
+            // Vi behöver bara veta om filen finns. HEAD hämtar inte själva
+            // bildfilens innehåll och sparar därför mycket data på GitHub Pages.
             const svar = await fetch(sokvag, {
-                cache: "no-store"
+                method: "HEAD",
+                cache: "default"
             });
 
             return svar.ok;
@@ -243,11 +246,13 @@ async function hittaAutomatiskaBilder(kortnamn, maxAntal = 20) {
     for (let nummer = 1; nummer <= maxAntal; nummer++) {
         let hittad = false;
 
+        // Vanligaste filtyperna först. Då hittar vi normalt rätt bild
+        // efter 1–2 kontroller i stället för efter många 404-anrop.
         for (const andelse of [
-            "jpg", "JPG",
-            "jpeg", "JPEG",
-            "png", "PNG",
-            "webp", "WEBP"
+            "jpg", "png",
+            "JPG", "PNG",
+            "jpeg", "webp",
+            "JPEG", "WEBP"
         ]) {
             const sokvag =
                 `${BILD_MAPP}/${kortnamn}-${nummer}.${andelse}`;
@@ -343,6 +348,9 @@ async function hamtaData() {
         const data = await svar.json();
         foretagsEpost = data.foretag?.epost?.trim() || "";
 
+        // Tunga filkontroller görs bara för objekt som faktiskt är lediga.
+        // Uthyrda objekt orsakar därmed inga bild-, beskrivnings- eller
+        // planritningsanrop när startsidan laddas.
         await Promise.all(
             (data.objekt ?? [])
                 .filter(objekt => objekt.ledigt === true)
