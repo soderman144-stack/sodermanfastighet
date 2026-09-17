@@ -485,7 +485,10 @@ function skapaObjektkort(objekt) {
                         </span>
 
                         <h2 class="h3 mt-3">
-                            ${escapeHtml(objekt.rubrik)}
+                            <a class="text-decoration-none"
+                               href="objekt.html?id=${encodeURIComponent(objekt.id)}">
+                                ${escapeHtml(objekt.rubrik)}
+                            </a>
                         </h2>
 
                         ${
@@ -587,7 +590,10 @@ async function initStart() {
                                 </span>
 
                                 <h3 class="h5">
-                                    ${escapeHtml(o.rubrik)}
+                                    <a class="text-decoration-none"
+                                       href="objekt.html?id=${encodeURIComponent(o.id)}">
+                                        ${escapeHtml(o.rubrik)}
+                                    </a>
                                 </h3>
 
                                 <p>
