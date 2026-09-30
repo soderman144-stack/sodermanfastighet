@@ -15,11 +15,11 @@
       "ledigt": true,
       "rubrik": "Förråd uthyres 9 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
-        "title": "Förråd uthyres Umeå – 9 kvm, 890 kr/mån | Söderman Fastighet",
-        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 9 kvm för 890 kr/mån."
+        "title": "Förråd uthyres Umeå – 9 kvm, 840 kr/mån | Söderman Fastighet",
+        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 9 kvm för 840 kr/mån."
       },
       "storlek": "9 kvm",
-      "hyra": 890,
+      "hyra": 840,
       "adress": "Pilgatan",
       "omrade": "Umeå centrum",
       "bilder": "forrad1",
@@ -29,7 +29,7 @@
       "prioritet": 64,
       "publicerad": "",
       "senastAndrad": "",
-      "seoText": "Förråd uthyres på Pilgatan 1 i Umeå centrum, nära Konst- och Designhögskolan. Det varma och torra förrådet är 9 kvm och ger gott om plats för exempelvis möbler, flyttkartonger, däck, verktyg eller annan förvaring. Förrådet passar både privatpersoner och företag som behöver extra förvaringsutrymme eller ett mindre lager med centralt läge.\n\nVälkommen att höra av dig!"
+      "seoText": "Förråd uthyres billigt på Pilgatan 1 i Umeå centrum, nära Konst- och Designhögskolan. Det är ett varmförråd på 9 kvm och ger gott om plats för exempelvis möbler, flyttkartonger, däck, verktyg eller annan förvaring. Förrådet passar både privatpersoner och företag som behöver extra förvaringsutrymme eller ett mindre lager med centralt läge. Varmt och torrt. \n\nVälkommen att höra av dig!"
     },
     {
       "id": "forrad-2",
@@ -37,11 +37,11 @@
       "ledigt": true,
       "rubrik": "Förråd uthyres 5 kvm i Umeå centrum – Pilgatan 1",
       "seo": {
-        "title": "Förråd uthyres Umeå – 5 kvm, 540 kr/mån | Söderman Fastighet",
-        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 5 kvm för 540 kr/mån. Ledigt nu."
+        "title": "Förråd uthyres Umeå – 5 kvm, 490 kr/mån | Söderman Fastighet",
+        "description": "Förråd uthyres på Pilgatan 1 i Umeå centrum. Varmt och torrt förråd på 5 kvm för 490 kr/mån. Ledigt nu."
       },
       "storlek": "5 kvm",
-      "hyra": 540,
+      "hyra": 490,
       "adress": "Pilgatan 1",
       "omrade": "Umeå centrum",
       "bilder": "forrad2",
@@ -51,7 +51,7 @@
       "prioritet": 63,
       "publicerad": "",
       "senastAndrad": "",
-      "seoText": "Förråd uthyres på Pilgatan 1 i Umeå centrum, nära Konst- och Designhögskolan. Det varma och torra förrådet är 5 kvm och passar både privatpersoner och företag som behöver extra förvaringsutrymme. Förrådet kan exempelvis användas för förvaring, lager, kartonger, möbler eller företagsmaterial.\n\nVälkommen att höra av dig!"
+      "seoText": "Förråd uthyres billigt på Pilgatan 1 i Umeå centrum, nära Konst- och Designhögskolan. Det är ett varmförråd på 5 kvm och ger gott om plats för exempelvis möbler, flyttkartonger, däck, verktyg eller annan förvaring. Förrådet passar både privatpersoner och företag som behöver extra förvaringsutrymme eller ett mindre lager med centralt läge. Varmt och torrt. \n\nVälkommen att höra av dig!"
     },
     {
       "id": "forrad-3",
