@@ -846,6 +846,18 @@ async function initObjekt() {
                     <strong>Hyra:</strong>
                     ${formatHyra(objekt.hyra)}<br>
 
+                    ${
+                        objekt.uppsagningstid
+                            ? `<strong>Uppsägningstid:</strong> ${escapeHtml(objekt.uppsagningstid)}<br>`
+                            : ""
+                    }
+
+                    ${
+                        objekt.forstahand
+                            ? `<strong>${escapeHtml(objekt.forstahand)}</strong><br>`
+                            : ""
+                    }
+
                     <strong>Läge:</strong>
                     ${escapeHtml(objekt.adress)},
                     ${escapeHtml(objekt.omrade)}<br>

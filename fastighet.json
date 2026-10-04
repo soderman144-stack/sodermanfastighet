@@ -166,24 +166,30 @@
     {
       "id": "garage-1",
       "typ": "garage",
-      "ledigt": false,
-      "rubrik": "Garage 1 i Umeå centrum",
+      "ledigt": true,
+      "rubrik": "Varmgarage uthyres i Umeå centrum – Pilgatan 1",
       "seo": {
-        "title": "Garage 1 i Umeå centrum | Söderman Fastighet",
-        "description": "Garage 1 i Umeå centrum på Pilgatan i Umeå centrum."
+        "title": "Garage uthyres i Umeå centrum – varmgarage 2 250 kr/mån",
+        "description": "Garage uthyres på Pilgatan i Umeå centrum. Varmgarage ca 20 kvm, 2 250 kr/mån. Ledigt 1 januari 2027, eller tidigare."
       },
       "storlek": "20 kvm",
-      "hyra": 2500,
+      "hyra": 2250,
       "adress": "Pilgatan",
       "omrade": "Umeå centrum",
       "bilder": "garage1",
-      "kortText": "",
-      "egenskaper": [],
-      "ledigFran": "",
+      "kortText": "Varmgarage på ca 20 kvm i centrala Umeå. Större än ett vanligt standardgarage.",
+      "egenskaper": [
+        "Varmgarage",
+        "Centralt läge",
+        "Ca 20 kvm"
+      ],
+      "ledigFran": "1 januari 2027, eller tidigare",
       "prioritet": 31,
       "publicerad": "",
-      "senastAndrad": "",
-      "seoText": "Garage 1 är ett varmgarage på 20 kvm på Pilgatan i Umeå centrum. Garaget ger bilen skydd mot snö, kyla och väder samtidigt som du får ett bekvämt och centralt läge."
+      "senastAndrad": "2026-10-04",
+      "seoText": "Är du intresserad av garaget? Hör av dig för mer information eller för att boka en visning. Berätta gärna vad du vill använda garaget till.",
+      "uppsagningstid": "3 mån",
+      "forstahand": "Förstahandskontrakt – du får hyra garaget så länge du vill."
     },
     {
       "id": "garage-2",
